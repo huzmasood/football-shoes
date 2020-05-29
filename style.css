@@ -1,0 +1,93 @@
+body{
+    background-color: black;
+}
+
+.navbar-brand{
+    color: white !important;
+}
+
+.sidebar{
+    background-color: gray;
+}
+
+.nav{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 250px;
+    font-size: large;
+}
+
+.main-heading{
+    text-align: center; 
+    font-family: 'Chelsea Market', cursive;
+    color: rgb(78, 59, 59);
+    transition: all 1s;
+    cursor: default;
+}
+
+.main-heading:hover{
+    color: #ff6360;
+}
+
+.heading{
+    color: white;
+}
+
+.text{
+    color: white;
+    font-size: medium;
+}
+
+.my-row{
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.logos{
+    height: 200px;
+    width: 350px;
+    transition: all 1s;
+}
+
+.logos:hover{
+    transform: scale(1.1);
+}
+
+.button{
+    display: none;
+}
+
+@media only screen and (max-width: 1025px) {
+    .main-heading{
+        font-size: 30px;
+        color: #ff6360 ;
+    }
+
+    .logo-box{
+        display: flex;
+        flex-direction: column;
+        margin-top: 175px;
+        align-items: center;
+    }
+    .box{
+        width: 500px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .box{
+        width: auto;
+    }
+}
+
+@media only screen and (max-height: 625px) {
+    .nav-footer{
+        display: none;
+    }
+}
