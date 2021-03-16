@@ -1,1 +1,1 @@
-A theme based football shoes website for my front-end project.
+A theme based website featuring football shoes.
